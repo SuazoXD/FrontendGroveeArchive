@@ -1,0 +1,54 @@
+.songCard-body {
+  width: 100%;
+  height: 100%;
+  background-color: #2c3d3f; /* Coincide con el tema oscuro */
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: #ffffff; /* Texto blanco para contraste */
+}
+
+.songCard-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff; /* Ajustado para tema oscuro */
+  margin: 0 0 10px;
+}
+
+
+.songCard-cover {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: #ddd; /* Fondo por si la imagen falla */
+}
+
+.songCard-details {
+  text-align: center;
+}
+
+.songCard-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff; /* Ajustado para tema oscuro */
+  margin: 0 0 10px;
+}
+
+.songCard-info {
+  font-size: 14px;
+  font-weight: 500;
+  color: #cccccc; /* Gris claro para contraste */
+  margin: 5px 0;
+}
+
+.songCard-release {
+  font-size: 12px;
+  font-weight: 400;
+  color: #FF914D; /* Naranja para destacar */
+  margin-top: 10px;
+}

@@ -1,0 +1,167 @@
+.register-page {
+    background-color: #3E5C58;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .register-container {
+    background-color: #fefefe;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .logo-container {
+    background-color: #DB5E25;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    position: relative;
+    margin: 10px 0;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #DB5E25;
+  }
+  
+  .input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #DB5E25;
+    font-size: 18px;
+  }
+  
+  .check-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #419C91;
+    font-size: 18px;
+  }
+  
+  .info-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #DB5E25;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .password-validation {
+    text-align: left;
+    font-size: 12px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .password-validation p {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .password-validation ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+  }
+  
+  .password-validation li {
+    color: #ff4d4d;
+  }
+  
+  .password-validation li.valid {
+    color: #419C91;
+  }
+  
+  .register-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #DB5E25;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .register-btn:hover:not(:disabled) {
+    background-color: #f3680c;
+    transform: scale(1.05);
+  }
+  
+  .register-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .popup.success {
+    border: 2px solid #419C91;
+  }
+  
+  .popup.error {
+    border: 2px solid #ff4d4d;
+  }
+  
+  .popup.info {
+    border: 2px solid #DB5E25;
+  }
+  
+  .popup ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .popup button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #DB5E25;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #f3680c;
+  }

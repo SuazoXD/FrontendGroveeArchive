@@ -1,0 +1,116 @@
+.credits-container {
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    background-color: #3E5C58;
+    color: #ffffff;
+    box-sizing: border-box;
+    overflow-y: auto;
+    position: relative; /* Para posicionar créditos en la esquina */
+  }
+  
+  .credits-display {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: #FF914D;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .credits-container h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+    text-align: center;
+    color: #FF914D;
+  }
+  
+  .invoices-section, .payments-section {
+    margin-bottom: 30px;
+  }
+  
+  .invoices-section h2, .payments-section h2 {
+    font-size: 24px;
+    color: #FF914D;
+    margin-bottom: 15px;
+  }
+  
+  .invoice-list, .payment-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .invoice-item, .payment-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    color: #3E5C58;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .invoice-item.selected {
+    background-color: #FF914D;
+    color: #ffffff;
+  }
+  
+  .invoice-item:hover, .payment-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .payment-form {
+    background-color: #DB5E25;
+    padding: 20px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .payment-form h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input[readOnly] {
+    background-color: #e0e0e0;
+    color: #555;
+  }
+  
+  .payment-form button {
+    padding: 10px 20px;
+    background-color: #FF914D;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .payment-form button:hover {
+    background-color: #FF5733;
+  }
